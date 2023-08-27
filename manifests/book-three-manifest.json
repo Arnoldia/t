@@ -1,0 +1,107 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Arnoldia.github.io/t/manifests/book-three-manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://16de7693-bfbb-47aa-923e-8137d87ceada",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@context" : "https://iiif.io/api/presentation/2/context.json",
+      "@id" : "https://iiif.archivelab.org/iiif/athanasiikircher00kirc_6$597/canvas",
+      "@type" : "sc:Canvas",
+      "description" : "",
+      "height" : 3744,
+      "images" : [ {
+        "@context" : "https://iiif.io/api/image/2/context.json",
+        "@id" : "https://iiif.archivelab.org/iiif/athanasiikircher00kirc_6$597/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.archivelab.org/iiif/athanasiikircher00kirc_6$597/annotation",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/athanasiikircher00kirc_6$597/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 3744,
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/athanasiikircher00kirc_6$597",
+            "profile" : "https://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 2617
+        }
+      } ],
+      "label" : "p. ",
+      "width" : 2617,
+      "related" : {
+        "@id" : "https://iiif.archivelab.org/iiif/athanasiikircher00kirc_6/manifest.json",
+        "label" : "Athanasii Kircheri Fuldensis Buchonii, e Soc. Iesu ... Magnes, siue, De arte magnetica opus tripartitum : quo praeterquam quod vniuersa magnetis natura, eiusque in omnibus artibus & scientijs vsus noua methodo explicetur, è viribus quoque & prodigiosis effectibus magneticarum, aliarumqu[ue] abditarum naturae motionum in elementis, lapidibus, plantis & animalibus elucescentium multa hucusque incognita naturae arcana per physica, medica, chymica & mathematica omnis generis experimenta recluduntur",
+        "format" : ""
+      }
+    }, {
+      "@id" : "http://3917e707-f558-431a-9fee-6502fbb256d3",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3781,
+      "width" : 2736,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2b796245-16bb-4ef5-b7a9-4dafa30cae58",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/athanasiikircher00kirc_6$728/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/athanasiikircher00kirc_6$728",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3781,
+          "width" : 2736
+        },
+        "on" : "http://3917e707-f558-431a-9fee-6502fbb256d3"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4ae68546-3e2d-43bc-8745-417cb5bd469c",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3756,
+      "width" : 2808,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a0ad70c4-5ecc-4e73-941e-5e7ef4f8001e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/athanasiikircher00kirc_6$734/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/athanasiikircher00kirc_6$734",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3756,
+          "width" : 2808
+        },
+        "on" : "http://4ae68546-3e2d-43bc-8745-417cb5bd469c"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
